@@ -1,0 +1,47 @@
+.list-component {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 232px;
+    height: 32px;
+  }
+  
+  .icon-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .left {
+    padding:4px 2px 4px 2px;
+  }
+  
+  .title {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: var(--font-medium);
+  }
+  
+  .right {
+    margin-left: auto;
+  }
+  
+  .add-button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  

@@ -1,0 +1,42 @@
+.card-component {
+    width: 232px;
+    background-color: #fff;
+    margin: 0 4px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-icon-title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .card-icon {
+    padding: 4px 2px 4px 2px;
+  }
+
+  .card-title {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: var(--font-bold);
+  }
+  
+  .card-add-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .list-component {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
